@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <fieldset>
+    <field name="id" type="hidden" />
+    <field name="name" type="text" label="Name" />
+    <field name="frequency" type="radio" label="Frequency" class="btn-group">
+      <option value="Hourly">Hourly</option>
+      <option value="Daily">Daily</option>
+      <option value="Weekly">Weekly</option>
+      <option value="Monthly">Monthly</option>
+    </field>
+    <field name="filename" type="filelist" default="" label="Select a file" description="" directory="includes/scripts" filter="" exclude="" stripext="" />
+    <field name="active" type="radio" default="0" label="Is this schedule active?" description="" class="btn-group btn-group-yesno">
+      <option value="1">JYES</option>
+      <option value="0">JNO</option>s
+    </field>
+  </fieldset>
+</form>
